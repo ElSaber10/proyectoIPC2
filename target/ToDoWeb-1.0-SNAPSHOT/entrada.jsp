@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Seleccion de archivos</title>
-//Archivo que reconoce
+    //Archivo que reconoce el json
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -27,7 +27,7 @@
         <div class="row pl-5">
             <div class="col-md-6">
                 <div class="my-2">
-                    <label for="archivoEntrada" class="form-label font-weight-bold">Seleccione el archivo de entrada:</label>
+                    <label for="archivoEntrada" class="form-label font-weight-bold">Seleccione el archivo de entrada:></label>
                     <input type="file" class="form-control border" name="archivoEntrada" accept=".json">
                 </div>
             </div>
