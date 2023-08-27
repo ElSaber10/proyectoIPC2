@@ -22,6 +22,6 @@ public class IndexServlet extends HttpServlet {
         session.setMaxInactiveInterval(3600);
         session.setAttribute("conexion", conexion.obtenerConexion());
 
-        response.sendRedirect(request.getContextPath() + "entrada.jsp");
+        response.sendRedirect("libros/libros.jsp");
     }
 }
